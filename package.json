@@ -1,0 +1,20 @@
+{
+  "name": "redisjobqueue",
+  "type": "module",
+  "scripts": {
+    "checkConfig": "eslint-config-prettier init.js",
+    "lint": "eslint *.js testing/*.js",
+    "format": "prettier *.js testing/*.js --write"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "redis": "^5.5.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.1.0",
+    "prettier": "3.5.3"
+  }
+}
